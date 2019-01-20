@@ -1,24 +1,22 @@
-# README
+# Chile Region-Provincia-Comuna
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Descripción
+- Ejemplo de Selector dinámico anidado para las regiones de Chile junto a sus provincias y comunas.
 
-Things you may want to cover:
+### Setup
+```
+bundle install
+rake db:migrate
+rake db:seed
+```
 
-* Ruby version
+### Screenshots
 
-* System dependencies
+<img src="https://i.imgur.com/V5a9h51.png" />
+</br>
+<img src="https://i.imgur.com/z6iQVku.png" />
+<br>
+<img src="https://i.imgur.com/pd3PyHZ.png" />
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Demo
+https://young-sierra-28229.herokuapp.com
