@@ -1,0 +1,10 @@
+@import "bootstrap";
+@import "gritter";
+@import "font-awesome";
+@import "select2";
+@import "select2-bootstrap";
+@import "bootstrap-sweetalert";
+
+.sweet-alert button.cancel {
+  @extend .btn-danger;
+}
