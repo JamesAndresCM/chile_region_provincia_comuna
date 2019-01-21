@@ -4,7 +4,7 @@ class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.json
   def index
-    @article = Article.all.includes(:district).paginate(page: params[:page])
+    @article = Article.all.includes(:district).paginate(page: params[:page]).order(created_at: :desc)
   end
 
   # GET /articles/1
