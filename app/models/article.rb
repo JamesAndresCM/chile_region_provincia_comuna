@@ -6,8 +6,8 @@ class Article < ApplicationRecord
 
   def self.get_district(district)
     begin
-      result = self.joins(:district).select("districts.id as d_id,districts.name as d_name").find(district)
-      [result.d_name, result.d_id]
+      result = self.joins(:district).select("districts.id as d_id,districts.name as d_name").where(id: district)
+      result.map{|r| [r.d_name,r.d_id] }
     rescue
       nil
     end
