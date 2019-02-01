@@ -10,7 +10,7 @@ rake db:migrate
 rake db:seed
 ```
 ### Install with Docker
-- Create postgresql container
+- Create postgres container
 ```
 docker run --name=postgres_chile_regiones \
 -e POSTGRES_USER=chile_regiones \
